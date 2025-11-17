@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <form action="" id="form" onsubmit="showForm(); return false;">
+        <div class="form-top">
+            <div class="container">
+                <h1>login to your account</h1>
+                <div class="form-inputs">
+                    <input type="email" placeholder="Your email address" id="emailInput" value="" />
+                    <input class="password" type="password" placeholder="Password" id="passInput" value="" />
+                </div>
+            </div>
+        </div>
+        <div class="form-bottom">
+            <div class="container">
+                <a href="index.html">Forgot password?</a>
+                <button type="submit" id="btn" onclick="showForm()"> Sign In</button>
+            </div>
+        </div>
+    </form>
+    <div id="welcome" style="display: none;">Welcome!</div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
